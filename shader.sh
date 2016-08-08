@@ -12,7 +12,7 @@ do
 		open "http://thatsthefinger.com/"
 	fi
 	if [ $a == "w" ]; then
-		echo "if you are so smart why you are so poor?" >> HeD.txt
+		figlet 'if you are so smart why you are so poor?' >> HeD.txt
 		open -e HeD.txt
 	fi
 	# call the python script, if you prefer to use python.
