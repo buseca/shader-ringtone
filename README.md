@@ -1,8 +1,6 @@
 # Shader ringtones
 ringtones for work-life balance and automated task
 
-##INTRO
-
 ###Abstract
 **Shader is a special ringtone which automatically induces your computer’s sleeping mode**, forcing you to stop the momentum and to be aware of what’s going on around. It helps you to clearly define your life’s priority, like your family or friends, and it makes them sure you answer the phone when they call you on the phone.
 Moreover, Shader has several different ringtones and you can use them to trigger other automated tasks.
@@ -17,8 +15,6 @@ To be able to take breaks is fundamental to reach a work-life balance, to improv
 
 But plans rarely work as they are expected to do, the momentum is hard to stop and fallbacks are often needed. Here comes Shader ringtone.
 
-##SPEC
-
 ###Requirements
 + Shader ringtone doesn't use any connection to do his job, it's just a sound that, when heared by the computer's mic, it activates the screen sleeping mode.
 + Shader is designed for OSx although it can work also on Linux.
@@ -31,18 +27,16 @@ But plans rarely work as they are expected to do, the momentum is hard to stop a
 
 ##HOW TO USE IT
 
-###Set up
 Install minimodem with HomeBrew, so open a terminal window and write this command:
 
     brew install minimodem
     
 If you don't know what HomeBrew is, you will probably need to install it first: check http://brew.sh/ for instructions.
 
-Download the Shader project folder from this page. Then send the *sleepingtone.wav* file to your phone and set it as default ringtone. (You can use Browsertone or Writetone for different effects).
+Download the Shader project folder from this page. Then send the *sleepingtone.wav* file to your phone and set it as default ringtone. (You can use Browsertone or Writetone for different effects). 
 
-###Run it
 Using the terminal, navigate to the project folder you just downloaded which contains the shader.sh script and type this command to start the listening:
 
-    minimodem -r 50 -q | ./shader.sh 
+    minimodem -r 50 -q | shader.sh 
 
 Now play the ringtone on your phone (or whatever else player and speaker) and whatch the computer fall asleep.
