@@ -25,6 +25,10 @@ But plans rarely work as they are expected to do, the momentum is hard to stop a
 + *Browsertone.wav* open a specific URL in the browser
 + *Writetone.wav* write stuff in a text file and then open it. (you'll need *figlet* to properly use it)
 
+###Credits
+Shader's concept was developed during the Hackers & Designers event 2016.
+Thanks to dennisdebel for helping in bash scripting.
+
 ##HOW TO USE IT
 
 Install minimodem with HomeBrew, so open a terminal window and write this command:
