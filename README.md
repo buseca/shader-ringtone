@@ -18,7 +18,7 @@ But plans rarely work as they are expected to do, the momentum is hard to stop a
 ###Requirements
 + Shader ringtone doesn't use any connection to do his job, it's just a sound that, when heared by the computer's mic, it activates the screen sleeping mode.
 + Shader is designed for OSx although it can work also on Linux.
-+ Shader uses *Minimodem* for the listening capabilities, you can get it with just a bower install command as explained below.
++ Shader uses *Minimodem* for the listening capabilities, you can get it with just a bash command as explained below.
 
 ###Ringtones
 + *Sleepingtone.wav* Set the computer's monitor in sleeping mode
