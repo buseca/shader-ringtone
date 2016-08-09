@@ -37,10 +37,16 @@ Install minimodem with HomeBrew, so open a terminal window and write this comman
     
 If you don't know what HomeBrew is, you will probably need to install it first: check http://brew.sh/ for instructions.
 
-Download the Shader project folder from this page (or from here: https://github.com/buseca/shader-ringtone/archive/master.zip ). Then send the *sleepingtone.wav* file to your phone and set it as default ringtone. (You can use Browsertone or Writetone for different effects). 
+Download the Shader project folder from this page (or from here: https://github.com/buseca/shader-ringtone/archive/master.zip ). Then send the *sleepingtone.wav* file to your phone and set it as default ringtone. (You can instead use browsertone.wav or writetone.wav for different effects). 
 
 Using the terminal, navigate to the project folder you just downloaded which contains the shader.sh script and type this command to start the listening:
 
     minimodem -r 50 -q | shader.sh 
 
 Now play the ringtone on your phone (or whatever else player and speaker) and whatch the computer fall asleep.
+
+###Notes
+If you are going to use *writetone.wav*, you will need figlet installed to make it work; to install figlet:
+
+    brew install figlet
+    
